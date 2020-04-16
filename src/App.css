@@ -1,0 +1,264 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Mystars {
+  cursor: pointer;
+}
+img.img-plus {
+  width: 20px;
+  height: 20px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card{
+  border: 1px solid red;
+  width: 224px;
+  height: 500px;
+  margin: 30px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  margin-left: 143px;
+}
+.card-img-top{
+  width: 224px;
+  height: 340px;
+}
+.card-body{
+  height: 15px;
+}
+.filter-container{
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-container{
+  flex:2;
+  padding-left: 50px;
+}
+.filer-rate{
+  flex:1;
+}
+.movieRating{
+  cursor: pointer;
+}
+
+
+
+.card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 50px blue;
+  transition: all 200ms ease-in;
+  transform: scale(1.03);
+}
+.card:hover .card-content {
+  display: flex;
+  top: 55%;
+}
+
+.card-img {
+  position: relative;
+  max-width: 300px;
+}
+
+.movie-image {
+ 
+  position: relative;
+  max-width: 300px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: red;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 40%;
+}
+.card-title {
+  position: unset;
+  padding-left: 1px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+.card-date {
+  position: absolute;
+  padding-left: 2px;
+  top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+}
+.card-rating {
+  position: relative;
+  top: 3em;
+  right:0em;
+  display: flex;
+  color: rgb(236, 236, 67);
+}
+h1 {
+  color: white;
+}
+
+.movie-app {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color:white;
+}
+
+
+.movie-card,
+.new-movie-card {
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-movie-card {
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.rating-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+.rating-filter-text {
+  font-size: 1em;
+  color: black;
+}
+
+.rating-filter-stars {
+  justify-content: center;
+  color: rgba(236, 233, 31, 0.952);
+  font-size: 30px;
+}
+
+
+.movie-rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-top: none;
+  border-right: none;
+  color: rgba(236, 233, 31, 0.952);
+}
+
+.movie-description {
+  border-top: 2px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.new-movie-card {
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body{
+  padding: 0%;
+  margin: 0%;
+  background: black;
+}
+p.card-text {
+  color: white;
+}
+label {
+  font-size: x-large;
+  color: blue;
+}
+input#fname {
+  margin: 6px;
+  HEIGHT: 50px;
+  width: 493px;
+}
+input#lname {
+  margin: 6px;
+  HEIGHT: 50px;
+  width: 493px;
+}
+.ReactModal__Content.ReactModal__Content--after-open.modall {
+  display: grid;
+  justify-items: flex-start;
+  justify-content: center;
+      background: blue;
+}
+button.input-sub {
+  MARGIN: 16px;
+  height: 35px;
+  width: 92px;
+  background: chartreuse;
+  border-radius: 14px;
+}
+.login-html
+{
+  display: flex;
+}
+input.button {
+  cursor: pointer;
+ 
+  border-radius: 9px;
+}
